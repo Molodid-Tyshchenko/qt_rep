@@ -8,6 +8,7 @@
 #include "../fields/StartField.h"
 #include "../fields/VadimField.h"
 
+
 class FieldFactory {
 public:
     virtual std::unique_ptr<Field> createField() const = 0;
